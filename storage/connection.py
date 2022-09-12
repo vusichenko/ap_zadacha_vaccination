@@ -1,6 +1,7 @@
 import sqlite3
 from typing import Iterable
 
+
 class DataStorage:
     """
     A class for connecting to the database. Most DB operations are done through this class.

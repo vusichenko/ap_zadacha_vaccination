@@ -5,7 +5,7 @@ import pandas as pd
 
 
 class FileImporter:
-    def __init__(self, file: Union[str, Path], chunk_size: int = None, **kwargs):
+    def __init__(self, file: Union[str, Path], chunk_size: int = None):
         self.path = Path(file)
         if not self.path.is_file():
             raise FileExistsError(f"File {file} does not exists!")

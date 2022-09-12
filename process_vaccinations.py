@@ -71,7 +71,7 @@ class ProcessVaccinations:
         update_data = (row["population"],
                        row["people_fully_vaccinated"],
                        row["percentage_vaccinated"],
-                       row["iso_code"] )
+                       row["iso_code"])
         update_sql = f"""
                 UPDATE countries SET 
                 population = ?,
