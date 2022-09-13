@@ -5,3 +5,7 @@ The FileImporter class was created, capable of loading large .csv files into pan
 And there is a basic narrowly focused ProcessVaccinations class for processing and filtering data from the file and writing it to the database.
 
 
+If your table in the database has not yet been prepared, you need to create a zadacha.db file and run
+python prepare.py
+
+To start processing vaccinations, run process_vaccinations.py
